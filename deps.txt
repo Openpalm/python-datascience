@@ -1,0 +1,18 @@
+# matplotlob was missing pyplot, pip was failing to install it correctly.
+
+pip uninstall matplotlib
+piython3 -m pip install matplotlib
+
+# vis backebd needed, installing QT
+# installing IPython, handles library imports better
+
+pyvistaqt
+PyQt5
+IPython
+
+# some missing internal dependencies for pyvis/QT
+#pyvistaqt: No module named 'PyQt5'
+#notebook: No module named 'ipywidgets'
+
+PyQt5
+ipywidgets
